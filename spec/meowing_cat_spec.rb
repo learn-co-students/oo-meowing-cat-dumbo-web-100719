@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative '../lib/meowing_cat'
+require_relative '../lib/meowing_cat.rb'
 
 describe "Cat" do
   let(:maru) {Cat.new}  # Look up what let does in RSpec
